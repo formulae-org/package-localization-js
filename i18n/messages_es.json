@@ -1,0 +1,169 @@
+{
+	"pathLanguage" : "Localización.Idioma",
+
+	"formatNameLanguage"  : "El idioma x",
+	"wilcardNameLanguage" : "x",
+	"leafLanguage"        : "Idioma",
+
+	"mnemonicGetCurrentLanguage" : "ObtenerIdiomaActual",
+	"nameGetCurrentLanguage"     : "Obtención del idioma actual",
+	"leafGetCurrentLanguage"     : "Obtener idioma actual",
+
+	"mnemonicGetLanguageList" : "ListaIdiomas",
+	"nameGetLanguageList"     : "Obtención de lista de idiomas",
+	"leafGetLanguageList"     : "Lista de idiomas",
+
+	"pathCountry" : "Localización.País",
+
+	"formatNameCountry"  : "El país x",
+	"wilcardNameCountry" : "x",
+	"leafCountry"        : "País",
+
+	"mnemonicGetCurrentCountry" : "ObtenerPaísActual",
+	"nameGetCurrentCountry"     : "Obtención del país actual",
+	"leafGetCurrentCountry"     : "Obtener país actual",
+
+	"mnemonicGetCountryList" : "ListaPaises",
+	"nameGetCountryList"     : "Obtención de lista de paises",
+	"leafGetCountryList"     : "Lista de paises",
+
+	"pathScript" : "Localización.Alfabeto",
+
+	"formatNameScript"  : "El alfabeto x",
+	"wilcardNameScript" : "x",
+	"leafScript"        : "Alfabeto",
+
+	"mnemonicGetCurrentScript" : "ObtenerAlfabetoActual",
+	"nameGetCurrentScript"     : "Obtención del alfabeto actual",
+	"leafGetCurrentScript"     : "Obtener alfabeto actual",
+
+	"mnemonicGetScriptList" : "ListaAlfabetos",
+	"nameGetScriptList"     : "Obtención de lista de alfabetos",
+	"leafGetScriptList"     : "Lista de alfabetos",
+
+	"pathNumeral" : "Localización.Numeral",
+
+	"formatNameNumeral"  : "El numeral x",
+	"wilcardNameNumeral" : "x",
+	"leafNumeral"        : "Numeral",
+
+	"mnemonicGetCurrentNumeral" : "ObtenerNumeralActual",
+	"nameGetCurrentNumeral"     : "Obtención del numeral actual",
+	"leafGetCurrentNumeral"     : "Obtener numeral actual",
+
+	"mnemonicGetNumeralList" : "ListaNumerales",
+	"nameGetNumeralList"     : "Obtención de lista de numerales",
+	"leafGetNumeralList"     : "Lista de numerales",
+
+	"pathCalendar" : "Localización.Calendario",
+
+	"formatNameCalendar"  : "El calendario x",
+	"wilcardNameCalendar" : "x",
+	"leafCalendar"        : "Calendario",
+
+	"mnemonicGetCurrentCalendar" : "ObtenerCalendarioActual",
+	"nameGetCurrentCalendar"     : "Obtenención del calendario actual",
+	"leafGetCurrentCalendar"     : "Obtener calendario actual",
+
+	"mnemonicGetCalendarList" : "ListaCalendarios",
+	"nameGetCalendarList"     : "Obtención de lista de calendarios",
+	"leafGetCalendarList"     : "Lista de calendarios",
+
+	"pathLocale" : "Localización.Local",
+
+	"formatNameLocale"  : "El local x",
+	"wilcardNameLocale" : "x",
+	"leafLocale"        : "Local",
+
+	"mnemonicGetCurrentLocale" : "ObtenerLocalActual",
+	"nameGetCurrentLocale"     : "Obteneción del local actual",
+	"leafGetCurrentLocale"     : "Obtener local actual",
+
+	"childGet" : "El local",
+
+	"mnemonicGetLocaleList" : "ListaLocales",
+	"nameGetLocaleList"     : "Obtención de lista de locales",
+	"leafGetLocaleList"     : "Lista de locales",
+
+	"mnemonicGetLanguage" : "ObtenerIdioma",
+	"nameGetLanguage"     : "Obteneción del idioma de un local",
+	"leafGetLanguage"     : "Obtener idioma",
+
+	"mnemonicGetCountry" : "ObtenerPaís",
+	"nameGetCountry"     : "Obteneción del pais de un local",
+	"leafGetCountry"     : "Obtener país",
+
+	"mnemonicGetScript" : "ObtenerAlfabeto",
+	"nameGetScript"     : "Obteneción del alfabeto de un local",
+	"leafGetScript"     : "Obtener alfabeto",
+
+	"mnemonicGetNumeral" : "ObtenerNumeral",
+	"nameGetNumeral"     : "Obteneción del numeral de un local",
+	"leafGetNumeral"     : "Obtener numeral",
+
+	"mnemonicGetCalendar" : "ObtenerCalendario",
+	"nameGetCalendar"     : "Obteneción del calendario de un local",
+	"leafGetCalendar"     : "Obtener calendario",
+
+	"mnemonicWithLocale" : "UsandoLocal",
+	"nameWithLocale"     : "Realizar operación utilizando un local",
+	"leafWithLocale"     : "Usando local",
+	"childrenWithLocale" : [ "Operación", "Local" ],
+
+	"pathTimeZone" : "Localización.Huso horario",
+
+	"formatNameTimeZone"  : "El huso horario x",
+	"wilcardNameTimeZone" : "x",
+	"leafTimeZone"        : "Huso horario",
+
+	"mnemonicGetCurrentTimeZone" : "ObtenerHusoHorarioActual",
+	"nameGetCurrentTimeZone"     : "Obtención del huso horario actual",
+	"leafGetCurrentTimeZone"     : "Obtener huso horario actual",
+
+	"mnemonicGetTimeZoneList" : "ListaHusosHorarios",
+	"nameGetTimeZoneList"     : "Obtención de lista de husos horarios",
+	"leafGetTimeZoneList"     : "Lista de husos horarios",
+
+	"mnemonicWithTimeZone" : "UsandoHusoHorario",
+	"nameWithTimeZone"     : "Realizar operación utilizando un huso horario",
+	"leafWithTimeZone"     : "Usando huso horario",
+	"childrenWithTimeZone" : [ "Operación", "Huso horario" ],
+
+	"pathFormat" : "Localización.Formato",
+
+	"mnemonicLocaleName" : "NombreDeLocal",
+	"nameLocaleName"     : "Nombre localizado de local",
+	"leafLocaleName"     : "Nombre de local",
+	"childrenLocaleName" : [ "Locale", "Local" ],
+
+	"mnemonicLanguageName" : "NombreDeIdioma",
+	"nameLanguageName"     : "Nombre localizado de idioma",
+	"leafLanguageName"     : "Nombre de idioma",
+	"childrenLanguageName" : [ "Idioma", "Local" ],
+
+	"mnemonicCountryName" : "NombreDePaís",
+	"nameCountryName"     : "Nombre localizado de país",
+	"leafCountryName"     : "Nombre de país",
+	"childrenCountryName" : [ "País", "Local" ],
+
+	"mnemonicQuoteString" : "CitarCadena",
+	"nameQuoteString"     : "Cita localizada de cadena",
+	"leafQuoteString"     : "Citar cadena",
+	"childrenQuoteString" : [ "Cadena", "Local" ],
+
+	"mnemonicFormatNumber" : "FormatearNúmero",
+	"nameFormatNumber"     : "Formato localizado de número",
+	"leafFormatNumber"     : "Formato de número",
+	"childrenFormatNumber" : [ "Número", "Local" ],
+
+	"mnemonicFormatCurrency" : "FormatearMonetario",
+	"nameFormatCurrency"     : "Formato localizado monetario",
+	"leafFormatCurrency"     : "Formato monetario",
+	"childrenFormatCurrency" : [ "Número", "Local" ],
+
+	"mnemonicNumberName" : "NombreDeNúmero",
+	"nameNumberName"     : "Nombre localizado de número",
+	"leafNumberName"     : "Nombre de número",
+	"childrenNumberName" : [ "Número", "Local" ]
+}
+

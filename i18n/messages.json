@@ -1,0 +1,169 @@
+{
+	"pathLanguage" : "Localization.Language",
+
+	"formatNameLanguage"  : "The x language",
+	"wilcardNameLanguage" : "x",
+	"leafLanguage"        : "Language",
+
+	"mnemonicGetCurrentLanguage" : "GetCurrentLanguage",
+	"nameGetCurrentLanguage"     : "Retrievement of the current language",
+	"leafGetCurrentLanguage"     : "Current language",
+
+	"mnemonicGetLanguageList" : "LanguageList",
+	"nameGetLanguageList"     : "Retrieving the language list",
+	"leafGetLanguageList"     : "Language list",
+
+	"pathCountry" : "Localization.Country",
+
+	"formatNameCountry"  : "The x country",
+	"wilcardNameCountry" : "x",
+	"leafCountry"        : "Country",
+
+	"mnemonicGetCurrentCountry" : "GetCurrentCountry",
+	"nameGetCurrentCountry"     : "Retrievement of the current country",
+	"leafGetCurrentCountry"     : "Current country",
+
+	"mnemonicGetCountryList" : "CountryList",
+	"nameGetCountryList"     : "Retrieving the country list",
+	"leafGetCountryList"     : "Country list",
+
+	"pathScript" : "Localization.Script",
+
+	"formatNameScript"  : "The x script",
+	"wilcardNameScript" : "x",
+	"leafScript"        : "Script",
+
+	"mnemonicGetCurrentScript" : "GetCurrentScript",
+	"nameGetCurrentScript"     : "Retrievement of the current script",
+	"leafGetCurrentScript"     : "Current script",
+
+	"mnemonicGetScriptList" : "ScriptList",
+	"nameGetScriptList"     : "Retrieving the script list",
+	"leafGetScriptList"     : "Script list",
+
+	"pathNumeral" : "Localization.Numeral",
+
+	"formatNameNumeral"  : "The x numeral",
+	"wilcardNameNumeral" : "x",
+	"leafNumeral"        : "Numeral",
+
+	"mnemonicGetCurrentNumeral" : "GetCurrentNumeral",
+	"nameGetCurrentNumeral"     : "Retrievement of the current numeral",
+	"leafGetCurrentNumeral"     : "Current numeral",
+
+	"mnemonicGetNumeralList" : "NumeralList",
+	"nameGetNumeralList"     : "Retrieving the numeral list",
+	"leafGetNumeralList"     : "Numeral list",
+
+	"pathCalendar" : "Localization.Calendar",
+
+	"formatNameCalendar"  : "The x calendar",
+	"wilcardNameCalendar" : "x",
+	"leafCalendar"        : "Calendar",
+
+	"mnemonicGetCurrentCalendar" : "GetCurrentCalendar",
+	"nameGetCurrentCalendar"     : "Retrievement of the current calendar",
+	"leafGetCurrentCalendar"     : "Current Calendar",
+
+	"mnemonicGetCalendarList" : "CalendarList",
+	"nameGetCalendarList"     : "Retrieving the calendar list",
+	"leafGetCalendarList"     : "Calendar list",
+
+	"pathLocale" : "Localization.Locale",
+
+	"formatNameLocale"  : "The x locale",
+	"wilcardNameLocale" : "x",
+	"leafLocale"        : "Locale",
+
+	"mnemonicGetCurrentLocale" : "GetCurrentLocale",
+	"nameGetCurrentLocale"     : "Retrievement of the current locale",
+	"leafGetCurrentLocale"     : "Current locale",
+
+	"childGet" : "The locale",
+
+	"mnemonicGetLocaleList" : "LocaleList",
+	"nameGetLocaleList"     : "Retrieving the locale list",
+	"leafGetLocaleList"     : "Locale list",
+
+	"mnemonicGetLanguage" : "GetLanguage",
+	"nameGetLanguage"     : "Retrieving the locale language",
+	"leafGetLanguage"     : "Get language",
+
+	"mnemonicGetCountry" : "GetCountry",
+	"nameGetCountry"     : "Retrieving the locale country",
+	"leafGetCountry"     : "Get country",
+
+	"mnemonicGetScript" : "GetScript",
+	"nameGetScript"     : "Retrieving the locale script",
+	"leafGetScript"     : "Get script",
+
+	"mnemonicGetNumeral" : "GetNumeral",
+	"nameGetNumeral"     : "Retrieving the locale numeral",
+	"leafGetNumeral"     : "Get numeral",
+
+	"mnemonicGetCalendar" : "GetCalendar",
+	"nameGetCalendar"     : "Retrieving the locale calendar",
+	"leafGetCalendar"     : "Get calendar",
+
+	"mnemonicWithLocale" : "WithLocale",
+	"nameWithLocale"     : "Operation with current or given locale",
+	"leafWithLocale"     : "With locale",
+	"childrenWithLocale" : [ "Operation", "Locale" ],
+
+	"pathTimeZone" : "Localization.TimeZone",
+
+	"formatNameTimeZone"      : "The x time zone",
+	"wilcardNameTimeZone" : "x",
+	"leafTimeZone"        : "Time zone",
+
+	"mnemonicGetCurrentTimeZone" : "GetCurrentTimeZone",
+	"nameGetCurrentTimeZone"     : "Retrievement of the current time zone",
+	"leafGetCurrentTimeZone"     : "Current time zone",
+
+	"mnemonicGetTimeZoneList" : "TimeZoneList",
+	"nameGetTimeZoneList"     : "Retrieving the time zone list",
+	"leafGetTimeZoneList"     : "Time zone list",
+
+	"mnemonicWithTimeZone" : "WithTimeZone",
+	"nameWithTimeZone"     : "Operation with current or given time zone",
+	"leafWithTimeZone"     : "With time zone",
+	"childrenWithTimeZone" : [ "Operation", "Time zone" ],
+
+	"pathFormat" : "Localization.Format",
+
+	"mnemonicLocaleName" : "LocaleName",
+	"nameLocaleName"     : "Localized name of locale",
+	"leafLocaleName"     : "Locale name",
+	"childrenLocaleName" : [ "Locale", "Locale" ],
+
+	"mnemonicLanguageName" : "LanguageName",
+	"nameLanguageName"     : "Localized name of language",
+	"leafLanguageName"     : "Language name",
+	"childrenLanguageName" : [ "Language", "Locale" ],
+
+	"mnemonicCountryName" : "CountryName",
+	"nameCountryName"     : "Localized name of country",
+	"leafCountryName"     : "Country name",
+	"childrenCountryName" : [ "Country", "Locale" ],
+
+	"mnemonicQuoteString" : "QuoteString",
+	"nameQuoteString"     : "Localized quotation of a string",
+	"leafQuoteString"     : "Quote string",
+	"childrenQuoteString" : [ "String", "Locale" ],
+
+	"mnemonicFormatNumber" : "FormatNumber",
+	"nameFormatNumber"     : "Localized format of a number",
+	"leafFormatNumber"     : "Format number",
+	"childrenFormatNumber" : [ "Number", "Locale" ],
+
+	"mnemonicFormatCurrency" : "FormatCurrency",
+	"nameFormatCurrency"     : "Localized format of a currency",
+	"leafFormatCurrency"     : "Format currency",
+	"childrenFormatCurrency" : [ "number", "Locale" ],
+
+	"mnemonicNumberName" : "NumberName",
+	"nameNumberName"     : "Localized name of a number",
+	"leafNumberName"     : "Number name",
+	"childrenNumberName" : [ "Number", "Locale" ]
+}
+
