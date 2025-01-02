@@ -134,16 +134,21 @@ const big = [
 //const _100  = 100n;
 //const _1000 = 1000n;
 
-let numberNameEnglish = number => {
-	if (number === 0n) {
+let numberNameEnglish = (number, session) => {
+	if (number.isZero()) {
 		return "zero";
 	}
 	
-	let name = "";
+	const _10 = CanonicalArithmetic.createInteger(10, session);
+	const _100 = CanonicalArithmetic.createInteger(100, session);
+	const _1000 = CanonicalArithmetic.createInteger(1000, session);
 	
+	let name = "";
 	let unit = 1;
+	let rem100, rem1000, hundreds;
+	
 	while (true) {
-		let rem100 = Number(number % 100n);
+		rem100 = number.remainder(_100).toNative();
 		
 		if (rem100 >= 20) {
 			if (Math.floor(rem100 % 10) == 0) {
@@ -155,17 +160,21 @@ let numberNameEnglish = number => {
 			name = small[rem100] + " " + name;
 		}
 		
-		let hundreds = Math.floor(Number(number % 1000n) / 100);
+		hundreds = Math.floor(number.remainder(_1000).toNative() / 100);
+		//hundreds = Math.floor(Number(number % 1000n) / 100);
 		if (hundreds !== 0) {
 			name =  small[hundreds] + " hundred " + name;
 		}
 		
-		number = number / 1000n;
-		if (number === 0n) {
+		number = number.integerDivisionForGCD(_1000);
+		//number = number / 1000n;
+		
+		if (number.isZero()) {
 			break;
 		}
 		
-		let rem1000 = Number(number % 1000n);
+		let rem1000 = number.remainder(_1000).toNative();
+		//let rem1000 = Number(number % 1000n);
 		if (rem1000 !== 0) {
 			if (unit < 2) {
 				name = big[unit] + " " + name;
@@ -416,18 +425,21 @@ LocalizationPackage.numberName = async (numberName, session) => {
 		locale = l.get("Value");
 	}
 	
-	if (!i.isInternalNumber()) return false;
-	let bi = i.get("Value");
-	if (!(bi instanceof CanonicalArithmetic.Integer)) return false;
-	if (bi < 0n || bi > MAX) return false;
+	//if (!i.isInternalNumber()) return false;
+	//let bi = i.get("Value");
+	//if (!CanonicalArithmetic.isInteger(bi)) return false;
+	//if (bi.isNegative() || CanonicalArithmetic.comparison(bi, MAX) > 0) return false;
+	
+	let n = CanonicalArithmetic.getInteger(i);
+	if (n === undefined || n.isNegative()) return false;
 	
 	let str;
 	
 	if (locale.startsWith("en")) {
-		str = numberNameEnglish(bi.integer);
+		str = numberNameEnglish(n, session);
 	}
 	else if (locale.startsWith("es")) {
-		str = numberNameSpanish(bi.integer);
+		str = numberNameSpanish(n, session);
 	}
 	else {
 		return false;
