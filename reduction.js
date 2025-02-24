@@ -157,9 +157,9 @@ let numberNameEnglish = (number, session) => {
 		return "zero";
 	}
 	
-	const _10 = CanonicalArithmetic.createInteger(10, session);
-	const _100 = CanonicalArithmetic.createInteger(100, session);
-	const _1000 = CanonicalArithmetic.createInteger(1000, session);
+	const _10 = Arithmetic.createInteger(10, session);
+	const _100 = Arithmetic.createInteger(100, session);
+	const _1000 = Arithmetic.createInteger(1000, session);
 	
 	let name = "";
 	let unit = 1;
@@ -445,10 +445,10 @@ LocalizationPackage.numberName = async (numberName, session) => {
 	
 	//if (!i.isInternalNumber()) return false;
 	//let bi = i.get("Value");
-	//if (!CanonicalArithmetic.isInteger(bi)) return false;
-	//if (bi.isNegative() || CanonicalArithmetic.comparison(bi, MAX) > 0) return false;
+	//if (!Arithmetic.isInteger(bi)) return false;
+	//if (bi.isNegative() || Arithmetic.comparison(bi, MAX) > 0) return false;
 	
-	let n = CanonicalArithmetic.getInteger(i);
+	let n = Arithmetic.getInteger(i);
 	if (n === undefined || n.isNegative()) return false;
 	
 	let str;
